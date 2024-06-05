@@ -1,7 +1,6 @@
 
 
 ## RESTful API Documentation for CREDITFIT API
-# Project Name
 
 In the project directory, you can run:
 
