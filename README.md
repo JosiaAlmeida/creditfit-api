@@ -1,35 +1,30 @@
-Certainly! Below is the complete README with the SQL Server database configuration, environment variables, and all endpoints:
 
-```markdown
-# CREDITFIT API Documentation
-
-## Database Configuration
-
-The CREDITFIT API uses SQL Server for data storage.
-
-### SQL Server Configuration
-
-- **Database:** Your_SQL_Server_Database_Name
-
-### Environment Variables
-
-Set the following environment variables:
-```
-
-ENV: NEST_HOST=Your_SQL_Server_Host
-NEST_PORT=Your_SQL_Server_Port
-NEST_USERNAME=Your_SQL_Server_Username
-NEST_PASSWORD=Your_SQL_Server_Password
-NEST_DATABASE=Your_SQL_Server_Database_Name
-NEST_SECRET_TOKEN=Your_Secret_Token
-
-````
 
 ## RESTful API Documentation for CREDITFIT API
+# Project Name
+
+In the project directory, you can run:
+
+### `npm run start`
+
+Runs the project in production mode.
+
+### `npm run start:dev`
+
+Runs the project in development mode with watch mode enabled.
+
+### `npm run migrate:run`
+
+Runs database migrations to apply changes to the database schema.
+
+### `npm run migrate:revert`
+
+Reverts the last applied database migration.
 
 ### Base URL
 
 `http://yourapiurl.com/`
+https://www.postman.com/josiaalmeida/workspace/creditfit
 
 ---
 
@@ -385,3 +380,28 @@ curl -X POST http://yourapiurl.com/api/loan/request \
   ]
 }
 ```
+
+```markdown
+# CREDITFIT API Documentation
+
+## Database Configuration
+
+The CREDITFIT API uses SQL Server for data storage.
+
+### SQL Server Configuration
+
+- **Database:** Your_SQL_Server_Database_Name
+
+### Environment Variables
+
+Set the following environment variables:
+```
+
+ENV: NEST_HOST=Your_SQL_Server_Host
+NEST_PORT=Your_SQL_Server_Port
+NEST_USERNAME=Your_SQL_Server_Username
+NEST_PASSWORD=Your_SQL_Server_Password
+NEST_DATABASE=Your_SQL_Server_Database_Name
+NEST_SECRET_TOKEN=Your_Secret_Token
+
+````
